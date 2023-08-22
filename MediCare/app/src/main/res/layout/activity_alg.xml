@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/background_01"
+    tools:context=".AlgActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Antihistamine pills and liquids work well for treating allergy symptoms."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="NOTE: Talk to your provider before giving medicines that cause sleepiness to a child, because they can affect learning. They can also affect alertness in adults."
+        android:textColor="@color/colorAccent1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:src="@drawable/alg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Allergy medicines:"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Antihistamines that may cause sleepiness: Diphenhydramine (Benadryl); chlorpheniramine (Chlor-Trimeton); brompheniramine (Dimetapp), or clemastine (Tavist)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Antihistamines that cause little or no sleepiness: Loratadine (Alavert, Claritin, Dimetapp ND); fexofenadine (Allegra); cetirizine (Zyrtec)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_shape_button"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

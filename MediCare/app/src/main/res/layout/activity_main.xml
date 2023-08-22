@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageviewID"
+                android:layout_marginTop="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/patientSignin_signOutID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/patientwhte"
+                        android:text="Doctor Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/doctorSigninID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/docwhite"
+                        android:text="Doctor Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/ambulanceID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/ambu"
+                        android:text="Doctor Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/primsarytreatmentID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/treatment_"
+                        android:text="Doctor Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/medicine_ID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/playbtn"
+                        android:text="Medicine saver"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/medicineID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/pillniloy"
+                        android:text="Doctor Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/todoID"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/round_shape_button"
+                    android:src="@drawable/todo"
+                    android:text="Medicine saver"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/mem_gameID"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/round_shape_button"
+                        android:src="@drawable/mem_icon"
+                        android:text="Medicine saver"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/rateusID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Rate Us "/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medi.medicare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/medicareicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/medicareicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".memory_game"></activity>
+        <activity android:name=".doctor_review" />
+        <activity android:name=".todo_list" />
+        <activity android:name=".map_by_niloy" />
+        <activity android:name=".ConsActivity" />
+        <activity android:name=".VomActivity" />
+        <activity android:name=".DecActivity" />
+        <activity android:name=".WonActivity" />
+        <activity android:name=".FevActivity" />
+        <activity android:name=".ConActivity" />
+        <activity android:name=".GasActivity" />
+        <activity android:name=".HeadActivity" />
+        <activity android:name=".DiaActivity" />
+        <activity android:name=".AlgActivity" />
+        <activity android:name=".FluActivity" />
+        <activity android:name=".medicine_by_niloy" />
+        <activity android:name=".Media_Activity_By_Niloy" />
+        <activity android:name=".firstAid" />
+        <activity android:name=".BmiCalculation" />
+        <activity android:name=".MyPrescriptionActivity" />
+        <activity android:name=".prescription_activity" />
+        <activity android:name=".CallingActivityBySiham" />
+        <activity android:name=".call_button_activity_for_doctor" />
+        <activity android:name=".todays_patient_list_for_doctor" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ListedDoctorDetails" />
+        <activity android:name=".VideoChatActivity" />
+        <activity android:name=".Doctor_category_list" />
+        <activity android:name=".doctorProfile" />
+        <activity android:name=".ambulance_activity" />
+        <activity android:name=".SpalashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Patient_User_Profile" />
+        <activity android:name=".AfterDoctorLogin" />
+        <activity android:name=".DoctorSignUpRequestForm" />
+        <activity android:name=".AfterPatientSignInORsignUP" />
+        <activity android:name=".PatientSignInActivity" />
+        <activity android:name=".PatientSignUpActivity" />
+        <activity android:name=".DoctorLoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

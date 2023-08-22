@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".DoctorSignUpRequestForm">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:id="@+id/DoctorFirstNameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="First Name"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/DoctorLastNameID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Last Name"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/DoctorSignUpEmailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/DoctorMedicalCollegeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Medical College"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/DgreeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Dgree"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:text="Specialized In "/>
+
+
+            <RadioGroup
+                android:id="@+id/SpecializedID"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Allergists"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Anesthesiologists"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Cardiologists"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"/>
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colon and Rectal Surgeons"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Critical Care Medicine Specialists"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="Dermatologists"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="Endocrinologists"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="Medicine Specialists"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="Family Physicians"
+                    android:textSize="20dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:text="gynecologist"
+                    android:textSize="20dp"/>
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/DoctorPasswordID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Password"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/ChamberID"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="Chamber address"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/consulantHourID"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="Time \ni.e sun (7.00-8.00) pm\n mon (8.00-9.00) pm"
+                android:textColorHint="#2CA7E0"
+                android:layout_gravity="center"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:padding="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Please attach a photo "/>
+            <ImageView
+                android:id="@+id/imageviewID"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:src="@drawable/profile"
+                android:layout_height="120dp"/>
+            <Button
+                android:id="@+id/DoctorSignUpButtonID"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:text="Already Registered ?"/>
+            <TextView
+                android:id="@+id/SignUpThekeSignInID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Sign In "/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

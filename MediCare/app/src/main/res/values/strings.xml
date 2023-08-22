@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MediCare</string>
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_maps_api">AIzaSyA6Y2BX-uF7ttWvfucY47nRsIUuz_LpJJE</string>
+    <string name="linktosite">
+        <a href="https://www.google.com/maps/@23.7985396,90.3654296,15z">Help Me!!!</a>
+    </string>
+    <string name="linktositea">
+        <a href="https://www.google.com.bd/maps/search/pharmacy/@23.7998124,90.3567878,15z/data=!3m1!4b1">OTHERS</a>
+    </string>
+    <string name="linktositeb">
+        <a href="https://www.google.com/maps/search/pharmacy+mirpur/@23.7986171,90.3654296,15z/data=!3m1!4b1">MIRPUR</a>
+    </string>
+    <string name="linktositec">
+        <a href="https://www.google.com/maps/search/pharmacy+uttara/@23.7987778,90.3041435,12z/data=!3m1!4b1">UTTARA</a>
+    </string>
+    <string name="linktosited">
+        <a href="https://www.google.com/maps/search/pharmacy+banani/@23.7894295,90.39565,15z/data=!3m1!4b1">BANANI</a>
+    </string>
+    <string name="linktositee">
+        <a href="https://www.google.com/maps/search/pharmacy+baridhara/@23.7895235,90.3693851,13z/data=!3m1!4b1">BARIDHARA</a>
+    </string>
+    <string name="linktositef">
+        <a href="https://www.google.com/maps/search/pharmacy+banasree/@23.7608068,90.4241197,15z/data=!3m1!4b1">BANASREE</a>
+    </string>
+    <string name="linktositeg">
+        <a href="https://www.google.com/maps/search/pharmacy+mohammadpur/@23.7609008,90.3978548,13z/data=!3m1!4b1">MOHAMMADPUR</a>
+    </string>
+
+    <string name="linktositeh">
+        <a href="https://mycurrentlocation.net/">Your Place</a>
+    </string>
+</resources>

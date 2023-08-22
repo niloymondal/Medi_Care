@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  android:background="@drawable/background_01"
+    tools:context=".medicine_by_niloy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#ff22"
+            android:text="OTC Drug Recommendation"
+            android:textColor="#FFEB3B"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Colds and Flu"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="25dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btna"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Allergies"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Diarrhea"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnh"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ACHES, PAINS AND HEADACHES"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btng"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Gastritis"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Conjunctivitis"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btne"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Fever"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Wounds"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Nasal Congestion"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Nausea and Vomiting"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btno"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Constipation"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/round_shape_button"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+</ScrollView>

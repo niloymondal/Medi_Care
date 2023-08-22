@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/background_01"
+    tools:context=".FevActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Acetaminophen (Tylenol) and ibuprofen (Advil, Motrin) help reduce fever in children and adults.
+
+"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="NOTE: Aspirin works very well for treating fever in adults. DO NOT give aspirin to a child unless your child's provider tells you it is OK."
+        android:textColor="@color/colorAccent1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fever" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Fever medicines:"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Take acetaminophen every 4 to 6 hours."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Take ibuprofen every 6 to 8 hours. DO NOT use ibuprofen in children younger than 6 months."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Know how much you or your child weighs before giving these medicines."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_shape_button"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

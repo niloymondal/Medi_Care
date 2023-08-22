@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradcolor2"
+    tools:context=".BmiCalculation">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATOR"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textColor="#01040C"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/weighttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textColor="#01040C"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/heighttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textColor="#01040C"
+        android:textSize="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/weighttxt"
+        />
+
+    <EditText
+        android:id="@+id/weightedittext"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="200dp"
+        android:hint="Kg"
+        android:textColorHint="#01040C"
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/heighttedittext"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="200dp"
+        android:hint="CM"
+        android:textColorHint="#01040C"
+        android:paddingLeft="30dp"
+        android:layout_below="@+id/weightedittext"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heighttedittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/gradcolor1"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/suggestionid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_id"
+        android:text="Get suggestion after result"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#01040C"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <TextView
+        android:id="@+id/resulttxtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suggestionid"
+        android:text="Your Result is:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#01040C"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="70dp"
+        />
+
+</RelativeLayout>

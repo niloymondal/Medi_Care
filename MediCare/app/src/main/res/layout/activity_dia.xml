@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/background_01"
+    tools:context=".DiaActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Over-the-counter antidiarrheal medicines like Imodium, Kaopectate, or Pepto-Bismol can help to relieve frequent and liquid bowel movements.
+"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="NOTE: Acute diarrhea lasts for about 2-3 days. Chronic diarrhea lasts for 3 weeks or more."
+        android:textColor="@color/colorAccent1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/dia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Diarrhea medicines:"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Antidiarrhea medicines loperamide (Imodium): These medicines slow down action of intestine and reduce number of bowel movements. Ask Doctor before taken."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Medicines that contain bismuth: May be taken for mild diarrhea (Kaopectate, Pepto-Bismol)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Rehydration fluids: May be used for moderate and severe diarrhea (Analytes or Pedialyte)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_shape_button"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

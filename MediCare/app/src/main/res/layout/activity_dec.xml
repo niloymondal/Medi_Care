@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/background_01"
+    tools:context=".DecActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Decongestants help clear a runny nose and relieve postnasal drip."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="NOTE: Decongestant nasal sprays may work more quickly, but they can have a rebound effect if you use them for more than 3 to 5 days. Your symptoms may get worse if you keep using these sprays."
+        android:textColor="@color/colorAccent1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nasal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Nasal Congestion medicines:"
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Oral decongestants: Pseudoephedrine (Contac Non-Drowsy, Sudafed, and store brands); phenylephrine (Sudafed PE and store brands)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="-Decongestant nasal sprays: Oxymetazoline (Afrin, Neo-Synephrine Nighttime, Sinex Spray); phenylephrine (Neo-Synephrine, Sinex Capsules)."
+        android:textColor="@color/colorAccent2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_shape_button"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Media_Activity_By_Niloy">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/note"
+        app:civ_border_color="#000000"
+        android:id="@+id/circularImageView"
+        />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="79dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/circularImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/play"
+
+
+        />
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btn_play"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/btn_play"
+        android:layout_toStartOf="@+id/btn_play"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/pause"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btn_play"
+        android:layout_alignEnd="@+id/circularImageView"
+        android:layout_alignRight="@+id/circularImageView"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/stop"/>
+
+    <Button
+        android:id="@+id/btn17"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_shape_button"
+        android:layout_alignParentBottom="true"
+
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

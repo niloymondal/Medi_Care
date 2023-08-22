@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/doctorChangedFirstNameID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+            android:textColorHint="#2CA7E0"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/doctorChangedLastNameID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textColorHint="#2CA7E0"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/doctorChangedEmailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="#2CA7E0"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        android:padding="20dp"
+        />
+    <EditText
+        android:id="@+id/doctorChangedChamberID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chamber"
+        android:textColorHint="#2CA7E0"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/doctorUpdateChangeButtonID"
+            android:layout_width="0dp"
+            android:onClick="updateFromAleartBox"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Update"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:id="@+id/doctorCancleChangeButtonID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:onClick="CancelButtonOnDialog"
+            android:layout_gravity="center"
+            android:text="Cancle"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

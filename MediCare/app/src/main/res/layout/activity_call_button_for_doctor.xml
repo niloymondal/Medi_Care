@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".call_button_activity_for_doctor">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/PatinetCallButtonID"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/round_shape_button"
+                android:src="@drawable/videobutton"
+                android:text="Medicine saver"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Call"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/PatinetPrescriptionButtonID"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/round_shape_button"
+                android:src="@drawable/prescription"
+                android:text="Doctor Sign In"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Prescription"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
